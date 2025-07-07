@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 13 15:07:28 2025
-
 @author: jonas.stephan
 """
 
