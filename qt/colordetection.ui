@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>235</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>color detection by JS</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>color.png</normaloff>color.png</iconset>
+  </property>
+  <widget class="QPushButton" name="button_info">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>180</y>
+     <width>90</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_exit">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>180</y>
+     <width>90</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_color">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>150</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>COLOR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_r">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>40</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>R:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_b">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>100</y>
+     <width>40</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>B:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_g">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>60</y>
+     <width>40</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>G:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_hex">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>40</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HEX: </string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edit_r">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>20</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edit_g">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>60</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edit_b">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edit_hex">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>140</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
